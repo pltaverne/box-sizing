@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.box-content-box, .box-border-box {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid black;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+}
+
+.box-content-box {
+    box-sizing: content-box; Default value
+}
+
+.box-border-box {
+    box-sizing: border-box;
+}
